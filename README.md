@@ -50,6 +50,6 @@ The FourColTrader component is structured as follows:
 
 - The component includes a variety of charts and UI elements, making it versatile for different data visualizations.
 - It's styled with TailwindCSS for easy customization and responsiveness.
-- You can further explore its functionalities and see it in action on the BentoGrid website.
+- You can further explore its functionalities and see it in action on the BentoGrid.dev website.
 
-Thank you for choosing FourColTrader for your project. If you have any questions or need further assistance, feel free to reach out via the provided links.
+Thank you for choosing Trader Bento Grid starter kit for your project. If you have any questions or need further assistance, feel free to reach out via the provided links.
