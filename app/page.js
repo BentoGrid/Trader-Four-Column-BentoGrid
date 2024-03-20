@@ -12,13 +12,14 @@ import BarChartDemo from './subcomponents/BarChartDemo';
 import EthChart from './subcomponents/EthChart';
 import { ChartBarIcon, ChartBarSquareIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function FourColTrader() {
 
 
   return (<div>
-    <div className='gradient-background max-w-7xl w-full mx-auto p-12 rounded-xl my-12 bg-black  text-gray-500'>
+    <div className='gradient-background max-w-7xl w-full mx-auto p-2 md:p-12 rounded-xl my-12 bg-black  text-gray-500'>
 
       <div className='flex gap-2 mb-8 w-full justify-between'>
         <h1 className="text-xl md:text-3xl font-bold col-span-4 flex text-white items-center gap-2  transition-all duration-300">
@@ -58,10 +59,10 @@ export default function FourColTrader() {
         <div className="gradient-background relative m
                 in-h-36 rounded-md  shadow-2xl" style={{ gridColumnEnd: "span 1", gridRowEnd: "span 1", border: '#222 1px solid', }}>
           <div className='p-4 flex flex-col'>
-            <div className='relative -mt-12 -mb-8 z-10 -ml-6 md:ml-0'>
+            <div className='relative -mt-12 -mb-8 z-10 -ml-11 md:ml-0'>
               <DoughnutChart />
             </div>
-            <div className='absolute -mt-12 -mb-8 blur-xl -ml-6 md:ml-0'>
+            <div className='absolute -mt-12 -mb-8 blur-xl -ml-11 md:ml-0'>
               <DoughnutChart />
             </div>
             <div>
@@ -141,10 +142,13 @@ export default function FourColTrader() {
 
   ///// GITHUB BUTTON
   function GitHubButton() {
-    return <button className="py-2 px-4 gap-3 rounded-lg text-white  text-sm cursor-pointer flex x-2 items-center justify-center self-center gradient-background transition-all duration-200 hover:border-black shadow-md opacity-85 hover:opacity-100">
+    return <Link
+      href="https://github.com/BentoGrid/Trader-Four-Column-BentoGrid"
+      target="_blank"
+      className="py-2 px-4 gap-3 rounded-lg text-white  text-sm cursor-pointer flex x-2 items-center justify-center self-center gradient-background transition-all duration-200 hover:border-black shadow-md opacity-85 hover:opacity-100">
       <Image alt="Google Logo" src="/git.svg" width={21} height={21} className='' />
       <span className='hidden md:flex  transition-all duration-300'>Get it on GitHub</span>
-    </button>;
+    </Link>;
   }
   ///// BUILT WITH BENTO GRID
   function BuiltWithBento() {
