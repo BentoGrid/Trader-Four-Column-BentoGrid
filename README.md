@@ -1,5 +1,9 @@
 # Trader Four Column Bento Grid Component Usage Guide
 
+
+![Trader_Screenshot]([https://raw.githubusercontent.com/BentoGrid/Trader-Four-Column-BentoGrid/main/public/screenshot.png])
+
+
 Welcome to the FourColTrader component, designed by Aaron Besson and built with BentoGrid.dev. This guide will walk you through adding the FourColTrader component to your Next.js project.
 
 ## Component Overview
